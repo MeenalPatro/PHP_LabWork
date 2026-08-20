@@ -1,15 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <title>Student Result System</title>
+
+    <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
-    This is rendered using Apache and providing it to the browser.
-    <br>
-    <?php
-        echo "This is PHP code rendered using Apache and providing it to the browser.";
-    ?>
+
+<div class="container">
+
+    <h1>Student Examination Result System</h1>
+
+    <p>Welcome to Student Result Management System</p>
+
+    <a href="add_student.php" class="btn">
+        Add Student
+    </a>
+
+    <a href="students.php" class="btn">
+        View Student Records
+    </a>
+
+</div>
+
 </body>
+
 </html>
